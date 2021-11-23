@@ -85,7 +85,13 @@ The following is intended to showcase some of the key features provided by [Red 
 
 * Double-check if you're on **Red Hat Realm**, if not, please select it before moving forward
 
-  ![Select Red Hat Realm](images/HelloWorldClientCredentialsClient/create_realm.png)
+  ![Red Hat Clients](images/HelloWorldClientCredentialsClient/redhat_clients.png)
+
+* Click on *Create* button
+
+* For *Client ID* please use `helloworld` click on *Create* button:
+
+  ![Red Hat Hello World Clients](images/HelloWorldClientCredentialsClient/redhat_clients_helloworld.png)
 
 ## Additional References <a name="additional-references">
 
