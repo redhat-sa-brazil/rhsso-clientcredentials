@@ -99,7 +99,13 @@ The following is intended to showcase some of the key features provided by [Red 
 
 * Finally click on *Save* button:
 
-  ![Red Hat Hello World Clients](images/HelloWorldClientCredentialsClient/redhat_helloworld_client_setup.png)
+  ![Red Hat Hello World Clients Setup](images/HelloWorldClientCredentialsClient/redhat_helloworld_client_setup.png)
+
+* Notice that we have a new *Credentials* tab showcasing the *Secret*
+
+  ![Red Hat Hello World Clients Secret](images/HelloWorldClientCredentialsClient/redhat_secret.png)
+
+  * please take note of the *secret* value
 
 ## Additional References <a name="additional-references">
 
