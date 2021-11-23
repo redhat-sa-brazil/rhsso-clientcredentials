@@ -123,7 +123,7 @@ The following is intended to showcase some of the key features provided by [Red 
     --data-urlencode 'grant_type=client_credentials' | jq
   ```
   * don't forget to update the *client_secret* with the correct values from your current environment;
-  * if you receive an error message *(invalid_client or Invalid client credentials)* please review your current *client* configuration;
+  * if you receive an error message *(invalid_client or Invalid client credentials)* please review your current *client* configuration and your *http request*;
 
 * A similar output is expected:
 
