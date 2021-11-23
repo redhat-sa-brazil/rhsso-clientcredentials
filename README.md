@@ -93,9 +93,9 @@ The following is intended to showcase some of the key features provided by [Red 
 
   ![Red Hat Hello World Clients](images/HelloWorldClientCredentialsClient/redhat_clients_helloworld.png)
 
-* Change the *Access Type* from *public* to *confidential:*
+* Change the *Access Type* from *public* to *confidential*
 
-* Inform `htttp://localhost:80` for *Valid Redirect URIs:*
+* Inform `htttp://localhost:80` for *Valid Redirect URIs*
 
 * Finally click on *Save* button:
 
