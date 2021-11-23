@@ -89,9 +89,17 @@ The following is intended to showcase some of the key features provided by [Red 
 
 * Click on *Create* button
 
-* For *Client ID* please use `helloworld` click on *Create* button:
+* For *Client ID* please use `helloworld` and click on *Save* button:
 
   ![Red Hat Hello World Clients](images/HelloWorldClientCredentialsClient/redhat_clients_helloworld.png)
+
+* Change the *Access Type* from *public* to *confidential:*
+
+* Inform `htttp://localhost:80` for *Valid Redirect URIs:*
+
+    ![Red Hat Hello World Clients](images/HelloWorldClientCredentialsClient/redhat_helloworld_client_setup.png)
+
+* Finally click on *Save* button
 
 ## Additional References <a name="additional-references">
 
