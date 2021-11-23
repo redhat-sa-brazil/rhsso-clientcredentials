@@ -22,6 +22,7 @@ The following is intended to showcase some of the key features provided by [Red 
 ## Agenda
 
 0. [RH-SSO Deployment](#clientcredentials-step-0)
+1. [RH-SSO Setup](#clientcredentials-step-1)
 
 ## Deployment
 
@@ -35,7 +36,7 @@ The following is intended to showcase some of the key features provided by [Red 
   docker run -it -p 8080:8080 viniciusmartinez/rhsso75:1.0
   ```
 
-* After a few seconds the following message is expected indicating **RH-SSO** is started sucessfully;
+* After a few seconds the following message is expected indicating **RH-SSO** is started successfully;
 
   ```
   15:12:33,875 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 89) WFLYUT0021: Registered web context: '/auth' for server 'default-server'
@@ -47,8 +48,12 @@ The following is intended to showcase some of the key features provided by [Red 
   15:12:34,168 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0054: Admin console is not enabled
   ```
 
-  * if the following *WARN* comes up, please ignore it. We´re currently using an base image that´s supposed to be executed on top of **Openshift:** `failed getting JSON response from Kubernetes Client`
+  * if the following *WARN* comes up, please ignore it. We're currently using an base image that's supposed to be executed on top of **Openshift:**
 
+    ```
+    WARN  [org.jgroups.protocols.kubernetes.KUBE_PING] (thread-5,null,0008aebf7899) failed getting JSON response from Kubernetes Client[masterUrl=https://null:0/api/v1, headers={}, connectTimeout=5000, readTimeout=30000, operationAttempts=3, operationSleep=1000,streamProvider=org.jgroups.protocols.kubernetes.stream.TokenStreamProvider@412f8410] for cluster [ee], namespace [default], labels [null]; encountered [java.lang.Exception: 3 attempt(s) with a 1000ms sleep to execute [OpenStream] failed. Last failure was [java.net.UnknownHostException: null]]
+    ```
 
+### 1. RH-SSO Setup <a name="testdrive-step-1">
 
 ## Additional References <a name="additional-references">
