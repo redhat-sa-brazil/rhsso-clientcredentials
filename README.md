@@ -97,9 +97,9 @@ The following is intended to showcase some of the key features provided by [Red 
 
 * Inform `htttp://localhost:80` for *Valid Redirect URIs:*
 
-    ![Red Hat Hello World Clients](images/HelloWorldClientCredentialsClient/redhat_helloworld_client_setup.png)
+* Finally click on *Save* button:
 
-* Finally click on *Save* button
+  ![Red Hat Hello World Clients](images/HelloWorldClientCredentialsClient/redhat_helloworld_client_setup.png)
 
 ## Additional References <a name="additional-references">
 
