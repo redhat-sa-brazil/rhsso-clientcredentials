@@ -61,7 +61,7 @@ The following is intended to showcase some of the key features provided by [Red 
 
   ```
   INFO  [org.jboss.as.server] (ServerService Thread Pool -- 73) WFLYSRV0010: Deployed "keycloak-server.war" (runtime-name : "keycloak-server.war")
-  15:12:34,154 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+  INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
   INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 15.0.2.Final-redhat-00001 started in 32989ms - Started 717 of 1077 services (769 services are lazy, passive or on-demand)
   INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
   INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0054: Admin console is not enabled
