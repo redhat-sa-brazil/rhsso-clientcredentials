@@ -66,6 +66,10 @@ The following is intended to showcase some of the key features provided by [Red 
   INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0054: Admin console is not enabled
   ```
 
-**
+* Access **RH-SSO Admin Console** by hitting on your *browser*: ´http://localhost:8080/auth/admin/´
+
+* Both *Username* and *Password* are **admin**
+
+  * ![Admin Console Login](images/rhsso_setup/admin_console_login.png)
 
 ## Additional References <a name="additional-references">
