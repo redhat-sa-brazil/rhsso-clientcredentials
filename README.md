@@ -23,7 +23,8 @@ The following is intended to showcase some of the key features provided by [Red 
 
 0. [RH-SSO Deployment](#clientcredentials-step-0)
 1. [RH-SSO Setup](#clientcredentials-step-1)
-2. [RH-SSO HelloWorld Client Credentials Client](#clientcredentials-step-2)
+2. [RH-SSO HelloWorld Client Credentials Setup](#clientcredentials-step-2)
+3. [RH-SSO HelloWorld Client Credentials Test](#clientcredentials-step-3)
 
 ## Deployment
 
@@ -81,7 +82,7 @@ The following is intended to showcase some of the key features provided by [Red 
 
   ![Red Hat Realm](images/Setup/redhat_realm.png)
 
-### 2. RH-SSO HelloWorld Client Credentials Client <a name="clientcredentials-step-2">
+### 2. RH-SSO HelloWorld Client Credentials Setup <a name="clientcredentials-step-2">
 
 * Double-check if you're on **Red Hat Realm**, if not, please select it before moving forward
 
@@ -97,6 +98,8 @@ The following is intended to showcase some of the key features provided by [Red 
 
 * Inform `htttp://localhost:80` for *Valid Redirect URIs*
 
+* Change the *Service Accounts Enabled* to **ON**
+
 * Finally click on *Save* button:
 
   ![Red Hat Hello World Clients Setup](images/HelloWorldClientCredentialsClient/redhat_helloworld_client_setup.png)
@@ -106,6 +109,18 @@ The following is intended to showcase some of the key features provided by [Red 
   ![Red Hat Hello World Clients Secret](images/HelloWorldClientCredentialsClient/redhat_secret.png)
 
   * please take note of the *secret* value
+
+### 3. RH-SSO HelloWorld Client Credentials Test <a name="clientcredentials-step-3">
+
+* Open a new terminal session and try to obtain a token from **Red Hat Single Sign On**
+
+  ```
+  curl --location --request POST 'http://localhost:8080/auth/realms/redhat/protocol/openid-connect/token' \
+    --header 'Content-Type: application/x-www-form-urlencoded' \
+    --data-urlencode 'client_id=helloworld' \
+    --data-urlencode 'client_secret=34ec8805-60c7-4130-8705-c157c83045bd' \
+    --data-urlencode 'grant_type=client_credentials'
+  ```
 
 ## Additional References <a name="additional-references">
 
