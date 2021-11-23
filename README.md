@@ -68,8 +68,21 @@ The following is intended to showcase some of the key features provided by [Red 
 
 * Access **RH-SSO Admin Console** by hitting on your *browser*: ´http://localhost:8080/auth/admin/´
 
-* Both *Username* and *Password* are **admin**
+* Both *Username* and *Password* are: **admin**
 
   * ![Admin Console Login](images/rhsso_setup/admin_console_login.png)
 
+* Let's create a [Realm](https://access.redhat.com/documentation/en-us/red_hat_single_sign-on/7.5/html-single/getting_started_guide/index#creating-first-realm_ ) called *redhat* by hover on the *Top Left Corner Arrow* and clicking on *Add Realm*
+
+  * ![Create Realm](images/rhsso_setup/create_realm.png)
+
+* At the *Name* textfield inform **redhat** and click on *Create*
+
+  * ![Red Hat Realm](images/rhsso_setup/redhat_realm.png)
+
+
 ## Additional References <a name="additional-references">
+
+- [RH-SSO 7.5 Documentation](https://access.redhat.com/documentation/en-us/red_hat_single_sign-on/7.5)
+- [OAuth Specification](https://datatracker.ietf.org/doc/html/rfc6749)
+- [Client Credentials](https://datatracker.ietf.org/doc/html/rfc6749#section-1.3.4)
