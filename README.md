@@ -71,21 +71,21 @@ The following is intended to showcase some of the key features provided by [Red 
 
 * Both *Username* and *Password* are: **admin**
 
-  * ![Admin Console Login](images/Setup/admin_console_login.png)
+  ![Admin Console Login](images/Setup/admin_console_login.png)
 
 * Let's create a [Realm](https://access.redhat.com/documentation/en-us/red_hat_single_sign-on/7.5/html-single/getting_started_guide/index#creating-first-realm_ ) called *redhat* by hover on the *Top Left Corner Arrow* and clicking on *Add Realm*
 
-  * ![Create Realm](images/Setup/create_realm.png)
+  ![Create Realm](images/Setup/create_realm.png)
 
 * At the *Name* textfield inform **redhat** and click on *Create*
 
-  * ![Red Hat Realm](images/Setup/redhat_realm.png)
+  ![Red Hat Realm](images/Setup/redhat_realm.png)
 
 ### 2. RH-SSO HelloWorld Client Credentials Client <a name="clientcredentials-step-2">
 
 * Double-check if you're on **Red Hat Realm**, if not, please select it before moving forward
 
-  * ![Select Red Hat Realm](images/HelloWorldClientCredentialsClient/create_realm.png)
+  ![Select Red Hat Realm](images/HelloWorldClientCredentialsClient/create_realm.png)
 
 ## Additional References <a name="additional-references">
 
