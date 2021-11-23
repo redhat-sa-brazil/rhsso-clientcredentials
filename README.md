@@ -122,7 +122,8 @@ The following is intended to showcase some of the key features provided by [Red 
     --data-urlencode 'client_secret=34ec8805-60c7-4130-8705-c157c83045bd' \
     --data-urlencode 'grant_type=client_credentials' | jq
   ```
-  * don't forget to update the *client_secret* with the correct values from your current Environment
+  * don't forget to update the *client_secret* with the correct values from your current environment;
+  * if you receive an error message *(invalid_client or Invalid client credentials)* please review your current *client* configuration;
 
 * A similar output is expected:
 
