@@ -116,7 +116,8 @@ The following is intended to showcase some of the key features provided by [Red 
 * Open a new terminal session and try to obtain a token from **Red Hat Single Sign On** using both *cURL* and *jq:*
 
   ```
-  curl --location --request POST 'http://localhost:8080/auth/realms/redhat/protocol/openid-connect/token' \
+  curl -s --location \
+    --request POST 'http://localhost:8080/auth/realms/redhat/protocol/openid-connect/token' \
     --header 'Content-Type: application/x-www-form-urlencoded' \
     --data-urlencode 'client_id=helloworld' \
     --data-urlencode 'client_secret=34ec8805-60c7-4130-8705-c157c83045bd' \
